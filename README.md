@@ -4,6 +4,7 @@ CircleImageView
 A fast circular ImageView perfect for profile images. This is based on [RoundedImageView from Vince Mi](https://github.com/vinc3m1/RoundedImageView) which itself is based on [techniques recommended by Romain Guy](http://www.curious-creature.org/2012/12/11/android-recipe-1-image-with-rounded-corners/).
 
 ![CircleImageView](https://raw.github.com/hdodenhof/CircleImageView/master/screenshot.png)
+<img src="./rounded_corner.png" alt="RoundedCornerImageView" width="540" />
 
 It uses a BitmapShader and **does not**:
 * create a copy of the original bitmap
@@ -32,6 +33,28 @@ Usage
     android:src="@drawable/profile"
     app:civ_border_width="2dp"
     app:civ_border_color="#FF000000"/>
+```
+
+```xml
+<de.hdodenhof.circleimageview.RoundedCornerImageView
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/hugh"
+    app:civ_bottom_right_radius="40dp"
+    app:civ_circle="false"
+    app:civ_top_left_radius="40dp" />
+```
+
+```xml
+<de.hdodenhof.circleimageview.RoundedCornerImageView
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/hugh"
+    app:civ_border_color="@color/light"
+    app:civ_border_width="2dp"
+    app:civ_circle="true" />
 ```
 
 Limitations
