@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CircleImageViewDemoActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".RoundedCornerImageViewDemoActivity"
+            android:label="@string/rounded_corner" />
     </application>
 
 </manifest>

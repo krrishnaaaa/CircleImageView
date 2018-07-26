@@ -2,5 +2,5 @@
 <resources>
 
     <string name="app_name">CircleImageView Sample</string>
-
+    <string name="rounded_corner">RoundedCornerImageView Sample</string>
 </resources>
