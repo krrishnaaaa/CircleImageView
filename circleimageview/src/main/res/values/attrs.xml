@@ -7,5 +7,10 @@
         <!-- {@deprecated Use civ_circlebackground_color instead.} -->
         <attr name="civ_fill_color" format="color" />
         <attr name="civ_circle_background_color" format="color" />
+        <attr name="civ_top_left_radius" format="dimension" />
+        <attr name="civ_top_right_radius" format="dimension" />
+        <attr name="civ_bottom_left_radius" format="dimension" />
+        <attr name="civ_bottom_right_radius" format="dimension" />
+        <attr name="civ_circle" format="boolean" />
     </declare-styleable>
 </resources>
